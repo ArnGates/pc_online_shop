@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.shopnow.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="home">
+        <input type="checkbox" id="ck">
+        <label for="ck" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+            </label>
+        <label class="logo">ShopNow </label>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#feedback" onClick="alert('available soon !');">Feedback</a></li>
+            <p id="soon"></p>
+        </ul>
+    </nav>
+
+<section class="section">
+    <div class="slider">
+        <div class="slide">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="st first"> 
+                <img src="firstt.jpg" alt="">
+            </div>
+            <div class="st">
+                <img src="secondd.jpg" alt="">
+            </div>
+            <div class="st">
+                <img src="third.jpg" alt="">
+            </div>
+
+            <div class="nav-auto">
+                <div class="a-b1"></div>
+                <div class="a-b2"></div>
+                <div class="a-b3"></div>
+            </div>
+
+            <div class="nav-m">
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio2" class="m-btn"></label>
+                <label for="radio3" class="m-btn"></label>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    var counter=1;
+    setInterval(function()
+    {
+        document.getElementById('radio' + counter).checked=true;
+        counter++;
+        if(counter > 3)
+        {
+            counter=1;
+        }
+    },5000);
+
+</script>
+<div class="container">
+<h1 id="about">About</h1>
+<p class="word">We sell all types of computer in offline as well online with affortable price.Special offer for students location is on Dimapur, Nagaland</p>
+</div>
+
+
+
+
+      <div id="shop"><span class="mid">DESKTOPS</span> <br>Best for Offices, Students & Home use.Best for Offices, Gaming & Designing.</div>
+<div class="shopp">
+      <div class="gallery">
+        <a target="_blank" href="">
+        <img src="pc.webp" alt="" width="500" height="300">
+        </a>
+        <div class="desc">Intel Core i3 2nd Gen<br>8GB Ram / 240GB SSD<br>USB Speaker<br>18.5 Monitor<br>Wired keyboard & Mouse
+            <br><span>Rs.13,990 /-</span></div>
+       </div>
+       <div class="gallery">
+        <a target="_blank" href="">
+        <img src="pc.webp" alt="" width="500" height="300">
+        </a>
+        <div class="desc">Intel Core i3 4th Gen<br>8GB Ram / 240GB SSD<br>USB Speaker<br>
+            18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.14,490 /-</span>
+        </div>
+        </div>
+
+        <div class="gallery">
+                <a target="_blank" href="">
+                <img src="pc.webp" alt="" width="500" height="300">
+                </a>
+                <div class="desc">Intel Core i5 2nd Gen<br>8GB Ram / 500GB SSD<br>USB Speaker<br>
+                    18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.15,490 /-</span>
+                </div>
+        </div>
+
+        <div class="gallery">
+                <a target="_blank" href="">
+                <img src="pc.webp" alt="" width="500" height="300">
+                </a>
+                <div class="desc">Intel Core i5 4th Gen<br>8GB Ram / 500GB SSD <br>USD Speaker<br>18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.16,490 /-</span>
+                </div>
+        </div>
+            
+        <div class="gallery">
+                    <a target="_blank" href="">
+                    <img src="pc.webp" alt="" width="500" height="300">
+                    </a>
+                    <div class="desc">Intel Core i5 6th Gen<br>8GB Ram / 240GB SSD<br>USB Speaker<br>18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.18,990 /-</span>
+                    </div>
+        </div>
+    
+    <div class="gallery">
+            <a target="_blank" href="">
+            <img src="pc.webp" alt="" width="500" height="300">
+            </a>
+            <div class="desc">Intel Core i7 4th Gen<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+                18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.22,990 /-</span>
+            </div>
+    </div>     
+    
+    <div class="gallery">
+        <a target="_blank" href="">
+        <img src="pc.webp" alt="" width="500" height="300">
+        </a>
+        <div class="desc">Intel Pentium G6405<br>8GB Ram / 500GB SSD<br>USB Speaker<br>
+            18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.24,490 /-</span>
+        </div>
+</div>   
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc.webp" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3-10105<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+        18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.29,490 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3-10100F<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+        18.5 Monitor<br>1GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.28,490 /-</span>
+    </div>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3-10100F<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+        22" Monitor<br>2GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.30,990 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3-12100F<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+        18.5 Monitor<br>1GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.32,490 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3-13100F<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+        18.5 Monitor<br>1GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.35,990 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc3.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i5-10400F<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+        18.5 Monitor<br>2GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.31,990 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc3.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i5-11400F<br>16GB Ram / 500GB SSD<br>USB Speaker<br>
+        18.5 Monitor<br>1GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.32,990 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc3.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i5-11400F<br>32GB DDR4 Ram<br>1TB NVME SSD<br>
+        21.5" Monitor<br>2GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.46,490 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc3.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3-13100F<br>32GB DDR4 Ram<br>1TB NVME SSD<br>
+        21.5" Monitor<br>2GB Graphic Card<br>Wired Keyboard & Mouse<br><span>Rs.48,490 /-</span>
+    </div>
+</div>  
+
+<div class="gallery">
+    <a target="_blank" href="">
+        <h3>Barebone Desktop PC</h3>
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3 6th Gen<br>8GB Ram<br>500GB SSD<br>
+        HP 18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.23,990 /-</span>
+    </div>
+</div> 
+
+<div class="gallery">
+    <a target="_blank" href="">
+        <h3>Barebone Desktop PC</h3>
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i5 6th Gen<br>16GB Ram<br>500GB SSD<br>
+        HP 18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.27,490 /-</span>
+    </div>
+</div> 
+
+<div class="gallery">
+    <a target="_blank" href="">
+        <h3>Tiny Desktop PC</h3>
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3 6th Gen<br>8GB Ram<br>240GB SSD<br>
+        HP 18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.19,990 /-</span>
+    </div>
+</div> 
+
+<div class="gallery">
+    <a target="_blank" href="">
+        <h3>Tiny Desktop PC</h3>
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i3 6th Gen<br>16GB Ram<br>500GB SSD<br>
+        HP 18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.22,490 /-</span>
+    </div>
+</div> 
+
+<div class="gallery">
+    <a target="_blank" href="">
+        <h3>Tiny Desktop PC</h3>
+    <img src="pc4.jpg" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i5 6th Gen<br>16GB Ram<br>500GB SSD<br>
+        HP 18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.24,990 /-</span>
+    </div>
+</div> 
+           
+<div class="gallery">
+    <a target="_blank" href="">
+    <img src="pc.webp" alt="" width="500" height="300">
+    </a>
+    <div class="desc">Intel Core i5-10400<br>32GB Ram / 500GB SSD<br>USB Speaker<br>
+        18.5 Monitor<br>Wired Keyboard & Mouse<br><span>Rs.35,490 /-</span>
+    </div>
+</div> 
+
+</div>
+<div id="contact"><span class="underline">Contact us on</span><br><a id="mail" href="mailto:arentemsuweb@gmail.com"><i id="icon" class="fa-solid fa-envelope"></i>arentemsuweb@gmail.com</a>
+<br><p class="num"><i id="wa" class="fa-brands fa-whatsapp"></i>7629869766</p>
+<div class="fuction"><a class="ft" href="#home">Home</a>
+                  <a  class="ft" href="#shop">Shop</a>
+                  <a  class="ft" href="#contact">Contact</a></div>
+
+<p class="copy">ShopNow<i id="right" class="fa-regular fa-copyright"></i>2023</p>
+
+ <marquee><br><p class="last">Thank you for visiting! .Have a nice Day!!</p></marquee>
+</div>
+</body>
+</html>
